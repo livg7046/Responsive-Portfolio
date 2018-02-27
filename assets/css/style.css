@@ -1,0 +1,190 @@
+.myName {
+    font-size:32px;
+    font-weight: bold;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 20px;
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .nav {
+    margin: auto;
+    width: 960px;
+    background-color: white;
+    padding: 20px;
+    
+    
+  }
+  
+  .subNavGroup {
+    display: inline;
+    padding-left: 344px;
+  }
+  
+  .subNav {
+    font-size: 18px;
+    display:inline;
+    padding: 18px 20px;  
+    background-color: #ffffff;
+  }
+  
+  /*
+  #about, #portfolio {
+    border-right: lightgrey 1px solid;
+  }
+  */
+  
+  .pipe {
+    font-size: 22px;
+    display:inline;
+    color: lightgrey;
+  }
+  
+  .content {
+    margin: auto;
+    width: 960px;
+    
+    
+  }  
+    
+  .mainContent {
+    position: relative;
+    display:inline-block;
+    width: 603px;
+    background-color: #ffffff;
+    border: solid lightgrey 1px;
+    padding: 18px;
+    margin:20px 20px 20px 0px;
+    line-height: 1.8;
+    
+    
+    
+  } 
+  
+  .sidebar {
+    position:absolute;
+    display:inline-block;
+    background-color: #ffffff;
+    width: 240px;
+    padding:20px;
+    border:solid lightgrey 1px;
+    margin: 20px;
+   font-size: 22px;
+   text-align: center;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+
+  .spacer {
+    height: 220px
+}
+  
+  .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #666666;
+      color: white;
+      text-align: center;
+      border-top: 4px solid #4aaaa5;
+      clear: both;
+  }
+  
+  .wallpaper {
+    background-image: url('../images/topography/topography.png');
+    position: relative;
+    border-top:1px lightgray solid;
+    height:100%;
+}
+  
+  .aboutMe {
+    text-align: left;
+    border-bottom: 2px lightgrey solid;
+    padding: 10px;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .connect {
+    text-align: center;
+    border-bottom: 2px lightgrey solid;
+    padding: 5px;
+  }
+  
+  
+body {
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+a {
+    text-decoration:  none;
+    color: #777777;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+  
+  .form-control input , textarea {
+    width: 100%;
+    
+  }
+
+  input[type='submit'] {
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #4aaaa5
+  }
+
+  .col  {
+    display:inline;
+  }
+
+.row1 .col span {
+    position: absolute;
+    top: 254px;
+    background-color:#4aaaa5;
+    width: 284px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 8px;
+
+}
+
+.row2 .col span {
+  position: absolute;
+  top: 465px;
+  background-color: #4aaaa5;
+  width: 284px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+  
+.col span a {
+  text-decoration:  none;
+  color: white;
+  font-size: 20px;
+}
+
+
+  

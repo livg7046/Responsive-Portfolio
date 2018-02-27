@@ -1,0 +1,177 @@
+@media only screen and (max-width: 640px) {
+    .myName {
+        font-size: 20px;
+        padding: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width: 640px;
+        text-align: center;
+        display: block;
+      }
+      
+      .nav {
+        margin: 0;
+        width: 640px;
+        padding: 0px;
+        position: static;
+        
+      }
+      
+    body {
+        margin:0px;
+    }
+
+    .subNavGroup {
+    display: block;
+    width: 640px;
+    text-align: center;
+    padding-left: 0;
+    padding: 16px;
+    }
+    
+    .subNav {
+    font-size: 12px;
+    
+    }
+
+    .wallpaper{
+        top: 122px;
+        margin: 0;
+        padding: 0;
+        width: 640px;
+        left: 0;
+        position: absolute;
+    }
+    
+    .content {
+    width: 584px;
+    margin: 8px;
+    
+    }
+
+    .mainContent {
+        width: 584px;
+    }
+    .mainContent img {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+
+    .sidebar {
+        display:block;
+        width: 584px;
+        margin:0;
+    }
+
+    .footer {
+    width: 100%;
+    }
+
+    
+      
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .nav{
+        width: 768px;
+    }
+    .subNavGroup{
+        padding-left: 116px;
+    }
+    .content {
+    width: 714px;
+    margin: 8px;
+    }
+
+    .footer {
+    width: 768px;
+    }
+
+    .wallpaper{
+        margin: 0;
+        padding: 0;
+        width: 768px;
+        left: 0;
+        position: absolute;
+    }
+    .mainContent {
+        width: 714px;
+    }
+    .mainContent img {
+        width: 50%;
+        float: none;
+        margin: 0;
+    }
+    .sidebar {
+        display:block;
+        width: 714px;
+        margin:0;
+      }
+      
+}
+    
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+    .nav {
+        width: 960px;
+    }
+    .myName{
+        padding: 26px;
+        margin: 30px;
+    }
+    .subNavGroup{
+        padding-left: 204px;
+    }
+    .subNav {
+        padding: 18px 20px;
+    }
+    .content {
+        margin: 18px;
+        margin-left: 50px;
+    }
+
+    .footer {
+        width: 960px;
+    }
+
+    .wallpaper{
+        margin: 0;
+        padding: 0;
+        width: 980px;
+        left: 0;
+    }
+    .mainContent {
+        width: 464px;
+    }
+    .mainContent img {
+        width: 464px;
+        float: none;
+        margin: 0;
+    }
+    
+
+
+    .row1 .col span .A {
+        top: 490px;
+        width: 448px;
+        position: absolute;
+    }
+
+    .row1 .col span .B {
+        top: 974px;
+        width: 448px;
+    }
+
+    .row2 .col span .C {
+        top: 1450px;
+        width: 448px;
+    }
+
+    .row2 .col span .D {
+        top: 1922px;
+        width: 448px;
+    }
+
+}
+    
